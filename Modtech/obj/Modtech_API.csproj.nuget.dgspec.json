@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Escritorio\\Proyectos\\Capacitacion\\WebAPI\\Modtech\\Modtech_API.csproj": {}
+    "d:\\Escritorio\\Proyectos\\Capacitacion\\WebAPI\\Modtech\\Modtech_API.csproj": {}
   },
   "projects": {
-    "D:\\Escritorio\\Proyectos\\Capacitacion\\WebAPI\\Modtech\\Modtech_API.csproj": {
+    "d:\\Escritorio\\Proyectos\\Capacitacion\\WebAPI\\Modtech\\Modtech_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Escritorio\\Proyectos\\Capacitacion\\WebAPI\\Modtech\\Modtech_API.csproj",
+        "projectUniqueName": "d:\\Escritorio\\Proyectos\\Capacitacion\\WebAPI\\Modtech\\Modtech_API.csproj",
         "projectName": "Modtech_API",
-        "projectPath": "D:\\Escritorio\\Proyectos\\Capacitacion\\WebAPI\\Modtech\\Modtech_API.csproj",
+        "projectPath": "d:\\Escritorio\\Proyectos\\Capacitacion\\WebAPI\\Modtech\\Modtech_API.csproj",
         "packagesPath": "C:\\Users\\User0\\.nuget\\packages\\",
-        "outputPath": "D:\\Escritorio\\Proyectos\\Capacitacion\\WebAPI\\Modtech\\obj\\",
+        "outputPath": "d:\\Escritorio\\Proyectos\\Capacitacion\\WebAPI\\Modtech\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
