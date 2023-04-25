@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Modtech_API.Modelos;
+using Modtech_API.Modelos.DTO;
 
 namespace Modtech_API.Controllers;
 
@@ -8,12 +9,14 @@ namespace Modtech_API.Controllers;
 public class PersonController : ControllerBase
 {
     [HttpGet]
-    public IEnumerable<Person> GetPerson()
+    public IEnumerable<PersonDto> GetPerson()
     {
-        return new List<Person>
-        {
-            new Person{Id= Guid.NewGuid() ,Nombre="Jonha Castillo"},
-            new Person{Id= Guid.NewGuid() ,Nombre="Vale Castillo"}
-        };
+        return PersonStore.personList;
+    }
+
+    [HttpGet]
+    public PersonDto GetPerson(Guid Id)
+    {
+        return PersonStore.personList.FirstOrDefault( c => c.Id.Equals(Id));
     }
 }
